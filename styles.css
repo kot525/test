@@ -26,9 +26,10 @@ a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 
-#baseDiv {
+.baseDiv {
 width: 800px;
 margin: 50px auto 0;
+background: #115511;
 box-shadow: 
 	0 0 0 2px #000,
 	0 0 0 3px #999,
@@ -38,6 +39,6 @@ box-shadow:
 	0 0 0 18px #000;
 }
 
-#baseDiv p{
+.baseDiv p{
 font-size: 14pt;
 }
